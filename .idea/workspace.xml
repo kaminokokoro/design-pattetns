@@ -1,26 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a112a92c-4638-4555-91ff-a6bc69eae268" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab11.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/ConcreteStrategyAdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/ConcreteStrategyMultiply.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/ConcreteStrategySubtract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/Strategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/RoundHole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/RoundPeg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/SquarePeg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/SquarePegAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/patterns/singleton/DemoSingleThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/patterns/singleton/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/singleton/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/singleton/Database.java" afterDir="false" />
+    <list default="true" id="a112a92c-4638-4555-91ff-a6bc69eae268" name="Changes" comment="finish strategy Pseudocode">
+      <change afterPath="$PROJECT_DIR$/src/Strategy/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/ExampleApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +39,7 @@
     "WebServerToolWindowFactoryState": "false"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DemoSingleThread">
+  <component name="RunManager" selected="Application.ExampleApplication">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="singleton.Application" />
       <module name="lab11" />
@@ -82,8 +66,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ExampleApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strategy.ExampleApplication" />
+      <module name="lab11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExampleApplication" />
         <item itemvalue="Application.DemoSingleThread" />
         <item itemvalue="Application.Application" />
       </list>
@@ -97,8 +95,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669187950139</updated>
-      <workItem from="1669187951584" duration="4694000" />
+      <workItem from="1669187951584" duration="7227000" />
     </task>
+    <task id="LOCAL-00001" summary="fist commit">
+      <created>1669195476154</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669195476155</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,5 +120,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fist commit" />
+    <MESSAGE value="finish strategy Pseudocode" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish strategy Pseudocode" />
   </component>
 </project>
